@@ -1,0 +1,44 @@
+.imagem1 {
+	background-image: url('/images/cidades/amalfi_sa.png');
+	height: 100vh;
+}
+
+.imagem2 {
+	background-image: url('/images/cidades/castel_san_pietro_verona.png');
+	height: 100vh;
+}
+
+.imagem3 {
+	background-image: url('/images/cidades/cervara_di_roma_rome.png');
+	height: 100vh;
+}
+
+.imagem4 {
+	background-image: url('/images/cidades/genova_genoa.png');
+	height: 100vh;
+}
+
+.imagem5 {
+	background-image: url('/images/cidades/palermo_palermo.png');
+	height: 100vh;
+}
+
+.imagem6 {
+	background-image: url('/images/cidades/piazza_di_spagna_rome.png');
+	height: 100vh;
+}
+
+.imagem7 {
+	background-image: url('/images/cidades/spanish_steps_rome.png');
+	height: 100vh;
+}
+
+.imagem8 {
+	background-image: url('/images/cidades/st_peters_basilica_piazza_san_pietro_vatican_city.png');
+	height: 100vh;
+}
+
+.imagem9 {
+	background-image: url('/images/cidades/venice_venice.png');
+	height: 100vh;
+}
