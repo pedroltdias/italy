@@ -60,39 +60,57 @@
 		</nav>
 	</header>
 
-	<main>
-		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active bg-image imagem1">
-				</div>
-				<div class="carousel-item bg-image imagem2">
-				</div>
-				<div class="carousel-item bg-image imagem3">
-				</div>
-				<div class="carousel-item bg-image imagem4">
-				</div>
-				<div class="carousel-item bg-image imagem5">
-				</div>
-				<div class="carousel-item bg-image imagem6">
-				</div>
-				<div class="carousel-item bg-image imagem7">
-				</div>
-				<div class="carousel-item bg-image imagem8">
-				</div>
-				<div class="carousel-item bg-image imagem9">
-				</div>
+	<main class="container">
+		<form>
+			<div class="mb-3">
+				<label for="nome" class="form-label">Nome</label>
+				<input class="form-control" type="text" placeholder="Nome" aria-label="default input example" id="nome">
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
+			<div class="mb-3">
+				<label for="sobrenome" class="form-label">Sobrenome</label>
+				<input class="form-control" type="text" placeholder="sobrenome" aria-label="default input example"
+					id="Sobrenome">
+			</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">Email</label>
+				<input type="email" class="form-control" id="email" aria-describedby="avisoEmail"
+					placeholder="email@email.com">
+			</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">Confirmação Email</label>
+				<input type="email" class="form-control" id="email" aria-describedby="avisoEmail"
+					placeholder="email@email.com">
+				<div id="avisoEmail" class="form-text">Seu email nunca será compartilhado com outras pessoas.</div>
+			</div>
+			<div class="mb-3">
+				<label for="senha" class="form-label">Senha</label>
+				<input type="password" class="form-control" id="senha" placeholder="********">
+			</div>
+			<div class="mb-3">
+				<label for="confirmaSenha" class="form-label">Confirma Senha</label>
+				<input type="password" class="form-control" id="confirmaSenha" placeholder="********">
+			</div>
+			<div class="mb-3">
+				<label for="roteiro">Escolha seu roteiro:</label>
+				<select class="form-select" aria-label="Default select example" id="roteiro">
+					<option value="Italia">Italia</option>
+					<option value="Liguria">Liguria</option>
+					<option value="Alpes">Alpes</option>
+					<option value="Lombardia">Lombardia</option>
+					<option value="Sicilia">Sicilia</option>
+					<option value="Sardenha">Sardenha</option>
+				</select>
+			</div>
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="newsletter">
+				<label class="form-check-label" for="newsletter">Aceita receber nossa newsletter?</label>
+			</div>
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="termos" required>
+				<label class="form-check-label" for="termos">Confirme a leitura dos termos.</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
 	</main>
 
 
