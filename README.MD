@@ -1,16 +1,13 @@
 # Guia Turístico - Itália
----
 Este projeto tem como principal objetivo a construção de um site de turismo/informativo sobre cidades italianas e a Itália, como um todo.
 
 ## Linguanges e Frameworks Utilizados:
----
 - Html
 - Css
 - JavaScript
 - Bootstrap
 
 ## O BootStrap
----
 Segundo o site do próprio bootstrap:
 "Boostrap é um **framework** gratuito e *open-source* do CSS, voltado para o desenvolvimento de aplicações responsivas, *mobile-first* e o front-end de aplicações web."
 Contém templates para:
@@ -37,7 +34,6 @@ Além destes templates, nos permite "escrever css no html" por meio das classes.
 ```
 
 ## O Projeto
----
 O Projeto possui:
 - 8 páginas html
 - 1 página css
