@@ -42,3 +42,26 @@
 	background-image: url('/images/cidades/venice_venice.png');
 	height: 100vh;
 }
+
+@media screen and (max-width: 992px) {
+	.index {
+		display: none;
+	}
+
+	.anexos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.anexos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
