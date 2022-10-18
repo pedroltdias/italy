@@ -126,7 +126,11 @@
 		crossorigin="anonymous"></script>
 	<script>
 		function enviado() {
-			alert('Registrado!')
+			termos = document.getElementById("termos");
+
+			if(termos.checked) {
+				alert("enviado!")
+			} 
 		}
 	</script>
 </body>
